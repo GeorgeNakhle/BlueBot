@@ -14,18 +14,18 @@ The bot takes advantage of [discord.js](https://discord.js.org/#/), a useful Nod
 The command prefix is `!`.\
 Use `!commands` to view all commands.
 
-- Music System
+- **Music System**
     - Supports YouTube URLs.
     - Skip songs in queue.
     - View and stop the queue.
-- Google Search Commands
+- **Google Search Commands**
     - Instantly search/post images and gifs.
     - Search/link Twitch profiles.
     - Search/link Twitter profiles.
-- Information
+- **Information**
     - Create polls/surveys.
     - Greeting and farewell messages.
-- Miscellaneous 
+- **Miscellaneous**
     - Mass message clearing.
     - Dad jokes.
     - Coin flips.
