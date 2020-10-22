@@ -1,6 +1,6 @@
 # BlueBot
 
-![icon](docs/icon.png)
+![BlueBot_logo](docs/icon.png)
 
 **Author**: George Nakhle
 
