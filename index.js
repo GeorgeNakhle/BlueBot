@@ -385,6 +385,7 @@ function playSong(connection, message) {
 //#endregion
 
 // TODO: Nuke old commented code
+// TODO: Event handler on user leaving
 // TODO: 'play.js', 'skip.js', 'queue.js' -> embeds
 // TODO: 'poll.js' -> poll command
 // https://github.com/Glyan/MineBot/blob/master/index.js
