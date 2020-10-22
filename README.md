@@ -20,8 +20,8 @@ Use `!commands` to view all commands.
     - View and stop the queue.
 - Google Search Commands
     - Instantly search/post images and gifs.
-    - Search/link for Twitch profiles.
-    - Search/link for Twitter profiles.
+    - Search/link Twitch profiles.
+    - Search/link Twitter profiles.
 - Information
     - Create polls/surveys.
     - Greeting and farewell messages.
