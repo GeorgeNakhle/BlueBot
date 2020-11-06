@@ -39,11 +39,11 @@ const BOT_INFO = {
     'COMMANDS': bot.commands
 };
 
-//#endregion
+//#endregion --------------------------------------------------------------------
 
 let servers = {}; // Music queue
 
-//#endregion
+//#endregion --------------------------------------------------------------------
 
 //#region EVENT HANDLER BLOCK ---------------------------------------------------
 
@@ -110,7 +110,7 @@ bot.on("message", message => {
         return message.channel.send("```diff\n- ERROR: Unknown command```");
     }
 
-    //#region OLD CODE
+    //#region OLD CODE ----------------------------------------------------------
 
     //args = message.content.substring(PREFIX.length).split(" ");
 
@@ -268,10 +268,10 @@ bot.on("message", message => {
     //         break;
     // }
 
-    //#endregion
+    //#endregion ----------------------------------------------------------------
 })
 
-//#endregion
+//#endregion --------------------------------------------------------------------
 
 //#region EXPORTS ---------------------------------------------------------------
 
@@ -281,7 +281,7 @@ exports.getMedia = getMedia;
 exports.playSong = playSong;
 exports.servers = servers;
 
-//#endregion
+//#endregion --------------------------------------------------------------------
 
 bot.login(TOKEN);
 
@@ -382,10 +382,16 @@ function playSong(connection, message) {
     });
 }
 
-//#endregion
+//#endregion --------------------------------------------------------------------
+
+//#region TODO ------------------------------------------------------------------
 
 // TODO: Nuke old commented code
+// TODO: Fix if statement in 'tellDadJoke()' to use 'specialCharArr' variable
+// TODO: Change 'TOKEN' constant to read from file w/ environment variables (check tutorial vid)
 // TODO: Event handler on user leaving
 // TODO: 'play.js', 'skip.js', 'queue.js' -> embeds
 // TODO: 'poll.js' -> poll command
 // https://github.com/Glyan/MineBot/blob/master/index.js
+
+//#endregion --------------------------------------------------------------------
